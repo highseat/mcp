@@ -1,5 +1,5 @@
 <p>
-  <a href="https://highseat.com/mcp"><img src="assets/icon-128.png" width="96" height="96" alt="Highseat"></a>
+  <picture><img src="assets/icon-128.png" width="96" height="96" alt="Highseat"></picture>
 </p>
 
 # Highseat MCP server
