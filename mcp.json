@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "highseat": {
+      "type": "streamable-http",
+      "url": "https://mcp.highseat.com/mcp",
+      "oauthScopes": ["read", "offline_access"]
+    }
+  }
+}

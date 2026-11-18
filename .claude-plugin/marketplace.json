@@ -1,0 +1,6 @@
+{
+  "name": "highseat",
+  "description": "The Highseat plugin: the hosted Highseat MCP server and skills for reviewing a site's traffic.",
+  "owner": { "name": "Highseat", "email": "support@highseat.com" },
+  "plugins": [{ "name": "highseat", "source": "./" }]
+}

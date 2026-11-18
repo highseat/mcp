@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "highseat",
+  "version": "1.0.0",
+  "description": "Ask your AI assistant about your website's traffic in Highseat: visitors, pages, sources, goals and revenue. It can also manage notes, goals, funnels and saved reports.",
+  "author": { "name": "Highseat", "email": "support@highseat.com", "url": "https://highseat.com" },
+  "homepage": "https://highseat.com/mcp",
+  "repository": "https://github.com/highseat/mcp",
+  "license": "MIT",
+  "keywords": ["highseat", "analytics", "web analytics", "traffic", "visitors", "pageviews", "referrers", "conversions", "goals", "funnels"]
+}

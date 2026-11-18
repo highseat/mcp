@@ -1,0 +1,19 @@
+{
+  "name": "highseat",
+  "displayName": "Highseat",
+  "version": "1.0.0",
+  "description": "Ask your AI assistant about your website's traffic in Highseat: visitors, pages, sources, goals and revenue. It can also manage notes, goals, funnels and saved reports.",
+  "author": { "name": "Highseat", "email": "support@highseat.com", "url": "https://highseat.com" },
+  "homepage": "https://highseat.com/mcp",
+  "repository": "https://github.com/highseat/mcp",
+  "license": "MIT",
+  "keywords": ["analytics", "web-analytics", "traffic", "mcp"],
+  "icon": "./assets/icon-512.png",
+  "documentationUrl": "https://highseat.com/docs/api/mcp",
+  "supportUrl": "mailto:support@highseat.com",
+  "privacyPolicyUrl": "https://highseat.com/privacy",
+  "termsOfServiceUrl": "https://highseat.com/terms",
+  "mcpServers": {
+    "highseat": { "type": "http", "url": "https://mcp.highseat.com/mcp" }
+  }
+}
