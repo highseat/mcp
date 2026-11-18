@@ -12,9 +12,12 @@ https://mcp.highseat.com/mcp
 
 The server is hosted by Highseat. This repository holds only the files that clients read to install it: plugin manifests, skills and icons. You need a Highseat account with at least one site.
 
-[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=highseat&config=eyJ1cmwiOiJodHRwczovL21jcC5oaWdoc2VhdC5jb20vbWNwIn0=)
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Highseat-0098FF?logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=highseat&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.highseat.com%2Fmcp%22%7D)
-[![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=highseat&config=%7B%22url%22%3A%22https%3A%2F%2Fmcp.highseat.com%2Fmcp%22%2C%22oauthScopes%22%3A%5B%22read%22%2C%22offline_access%22%5D%7D)
+<p>
+  <a href="https://cursor.com/install-mcp?name=highseat&config=eyJ1cmwiOiJodHRwczovL21jcC5oaWdoc2VhdC5jb20vbWNwIn0="><img src="https://cursor.com/deeplink/mcp-install-dark.svg" height="28" alt="Add to Cursor"></a>
+  <a href="https://vscode.dev/redirect/mcp/install?name=highseat&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.highseat.com%2Fmcp%22%7D"><img src="assets/add-to-vscode.svg" height="28" alt="Add to VS Code"></a>
+  <a href="https://kiro.dev/launch/mcp/add?name=highseat&config=%7B%22url%22%3A%22https%3A%2F%2Fmcp.highseat.com%2Fmcp%22%2C%22oauthScopes%22%3A%5B%22read%22%2C%22offline_access%22%5D%7D"><img src="https://kiro.dev/images/add-to-kiro.svg" height="28" alt="Add to Kiro"></a>
+  <a href="https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6IkhpZ2hzZWF0IiwiYmFzZVVybCI6Imh0dHBzOi8vbWNwLmhpZ2hzZWF0LmNvbS9tY3AifQ=="><img src="https://replit.com/badge?caption=Add%20to%20Replit" height="28" alt="Add to Replit"></a>
+</p>
 
 ## Sign in
 
@@ -59,7 +62,7 @@ Codex opens the sign-in page. If it does not, run `codex mcp login highseat`.
 
 ### Cursor
 
-Use the **Install in Cursor** button above, or add the server to `~/.cursor/mcp.json`:
+Use the **Add to Cursor** button above, or add the server to `~/.cursor/mcp.json`:
 
 ```json
 {
@@ -73,7 +76,7 @@ Then sign in from Cursor's MCP settings.
 
 ### VS Code
 
-Use the **Install in VS Code** button above, or add the server to `.vscode/mcp.json`:
+Use the **Add to VS Code** button above, or add the server to `.vscode/mcp.json`:
 
 ```json
 {
@@ -101,6 +104,10 @@ Use the **Add to Kiro** button above, or import this repository as a power: **Po
 ```
 
 Keep `oauthScopes`. Without it Kiro asks for `openid`, `email` and `profile`, which Highseat does not grant, and sign-in fails.
+
+### Replit
+
+Use the **Add to Replit** button above, or open **Integrations** in Replit, add a custom MCP server and paste the server URL. Sign in when Replit asks.
 
 ### Gemini CLI
 
@@ -158,7 +165,7 @@ The plugins in this repository add three skills, for clients that load skills (C
 | `plugin.json`, `mcp.json` | Kiro, and other clients that read the [Agent Plugins](https://agent-plugins.org) format |
 | `gemini-extension.json` | Gemini CLI |
 | `skills/` | Every client above |
-| `assets/` | The Highseat icon at 512, 400 and 128 pixels |
+| `assets/` | The Highseat icon at 512, 400 and 128 pixels, and the VS Code install button |
 
 ## Privacy and support
 
